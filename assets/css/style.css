@@ -1,0 +1,328 @@
+body
+{
+	overflow-x: hidden;
+}
+
+.logo
+{
+	width: 150px;
+	height: 50px;
+	background-color: #AD1F24;
+	color: white;
+}
+
+.logo:hover
+{
+	cursor: pointer;
+}
+
+li
+{
+	display: inline;
+	font-family: poppins;
+	font-weight: 500;
+}
+
+li:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#menu-burger
+	{
+		width: 50px;
+		height: 50px;
+		background-color: #FFF1E8;
+		border-radius: 25px;
+	}
+
+.bi-list
+{
+	color: #AD1F24;
+}
+
+p
+{
+	font-family: poppins;
+}
+
+.fond-destination
+{
+	background-image: url("../../assets/images/destination.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+	width: 96vw;
+	border-radius: 20px;
+}
+
+h1
+{
+	font-family: manrope;
+	font-weight: bold !important;
+	font-size: 60px !important;
+	color: White;
+}
+
+.outil-recherche
+{
+	width: 35%;
+	height: 50%;
+}
+
+.menu-recherche
+{
+	background-color: #FFF1E8;
+	border-radius: 25px;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.menu-recherche p
+{
+	font-family: poppins;
+	font-weight: 550 !important;
+}
+
+.selection
+{
+	background-color: #333333;
+	border-radius: 50px;
+	width: 450px;
+	height: 18%;
+	border: solid white 1px;
+	margin-bottom: -4%;
+	z-index: 2;
+	position: relative;
+}
+
+.categorie
+{
+	background-color: none;
+	border-radius: 25px;
+	color: white;
+	font-family: poppins;
+	width: 30%;
+	height: 75%;
+}
+
+.categorie-clicked
+{
+	background-color: #AD1F24;
+	border: solid white 1px;
+}
+
+input
+{
+	padding-left: 10px !important;
+}
+
+input::placeholder
+{
+	padding-left: 10px !important;
+}
+
+#destination, #date, #duree
+{
+	border-radius: 25px;
+	height: 80%;
+	width: 100%;
+}
+
+.button-recherche
+{
+	background-color: #333333;
+	border-radius: 25px;
+	height: 15%;
+	width: 94%;
+	cursor: pointer;
+}
+
+.button-recherche p
+{
+	color: white;
+}
+
+.button-micro
+{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.icone
+{
+	color: #AD1F24;
+}
+
+.fond-beige
+{
+	background-color: #FFF1E8;
+}
+
+h2
+{
+	font-family: manrope;
+	font-weight: bold !important;
+	font-size: 50px !important;
+}
+
+h3
+{
+	font-family: manrope;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+}
+
+
+.red-text
+{
+	color: #AD1F24;
+}
+
+.button-info
+{
+	background-color: #AD1F24;
+	border-radius: 25px;
+	height: 40px;
+	width: 40%;
+	cursor: pointer;
+}
+
+.button-info p
+{
+	color: white;
+	margin-left: 15px;
+}
+
+.thailande
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+footer
+{
+	background-color: #333333;
+	border-radius: 20px;
+}
+
+footer h4
+{
+	color: #AD1F24;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+}
+
+footer p
+{
+	color: lightgrey;
+}
+
+@media (max-width: 480px) {
+
+	li
+	{
+		display: block;
+	}
+
+	.logo
+	{
+		width: 100px;
+	}
+    
+	.fond-destination
+	{
+		background-image: none;
+		background-color: #FFF1E8;
+		height: 15vh;
+		width: 96vw;
+	}
+
+	.menu-recherche
+	{
+		background-color: #FFF1E8;
+		border-radius: 25px;
+		height: 100%;
+		z-index: 1;
+		position: relative;
+	}
+
+	.selection
+	{
+		background-color: #333333;
+		border-radius: 50px;
+		width: 90%;
+		height: 35%;
+		margin-top: 5%;
+	}
+
+	.outil-recherche
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.button-recherche
+	{
+		background-color: white;
+		border-radius: 25px;
+		height: 45%;
+		width: 90%;
+	}
+
+	.button-recherche p
+	{
+		color: #AD1F24;
+	}
+
+	.button-recherche .button-micro
+	{
+		width: 40px;
+		height: 40px;
+		background-color: #FFF1E8;
+	}
+
+	.fond-beige
+	{
+		background-image: url("../../assets/images/thailande.png");
+		background-position: 25% 70%;
+		background-size: cover;
+		background-repeat: no-repeat;;
+		width: 96%;
+		height: 60vh;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-radius: 25px;
+	}
+
+	.fond-beige p
+	{
+		color: white;
+		font-size: 80%;
+	}
+
+	.fond-beige h2
+	{
+		color: white;
+		text-transform: uppercase;
+		font-size: 180% !important;
+	}
+
+	.bg-gray
+	{
+		background-color: rgba(51, 51, 51, 0.5);
+		border-radius: 25px;	
+		border: solid white 1px;	
+	}
+
+	.button-info
+	{
+		width: 90%;
+	}
+}
